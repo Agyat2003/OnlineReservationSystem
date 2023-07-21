@@ -1,0 +1,17 @@
+public class OnlineReservationSystem {
+    public static boolean isValidUser(String var0, String var1) {
+        return var0.equals("Agyat") && var1.equals("0019");
+    }
+
+    public static void performReservation(String var0, String var1, String var2, String var3, String var4, String var5) {
+        System.out.println("Reservation successful. Details inserted into the database.");
+    }
+
+   public static void displayTicketDetails(String var0) {
+        System.out.println("Ticket details for PNR " + var0 + " displayed.");
+    }
+
+    public static void performCancellation(String var0) {
+        System.out.println("Cancellation for PNR " + var0 + " performed.");
+    }
+}
